@@ -13,7 +13,6 @@ public interface TrainService {
 
     Optional<Train> getTrainByNumber(Long id);
 
-
     void addTrain(Train train);
 
     boolean updateTrain(Long id, Train train);
